@@ -1,0 +1,33 @@
+/* 
+    Created on : 27-sep-2019, 11:50:01
+    Author     : laumf
+*/
+
+html {
+    background-color: #838383;
+    font: 20px arial;
+}
+body {
+    width: 40%;
+    margin: auto;
+    padding-top: 10%;
+}
+form input {   
+    border: none;
+    margin: 5px 0px;
+    padding: 10px;
+}
+form input.boton {   
+    width: 100%;
+    background-color: #676767;
+    color: #ffffff;
+}
+form input.boton:hover {
+    background-color: blueviolet;
+    transition: all 200ms 100ms linear;
+}
+
+fieldset#asignaturas input {
+    margin: 10px;
+}
+
