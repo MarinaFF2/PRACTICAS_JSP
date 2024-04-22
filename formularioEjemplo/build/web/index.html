@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form name="formulario" action="validar.jsp" method="POST">
+            <input type="text" name="nombre" placeholder="NOMBRE:" value="">
+            <br>
+            <input type="text" name="apellidos" placeholder="APELLIDOS:" value="">
+            <br>
+            <input type="date" name="day">
+            <br>
+            <input type="number" name="numero" value="0">
+            <br>
+            <fieldset>
+                <legend>Curso:</legend>
+                <p>
+                    <input type="radio" name="curso" value="DAW">DAW
+                    <br>
+                    <input type="radio" name="curso" value="DAM">DAM
+                    <br>
+                    <input type="radio" name="curso" value="ASIR">ASIR
+                </p>
+            </fieldset>
+             <fieldset>
+                <legend>Asignatura:</legend>
+                <select name="asignaturas">
+                    <option value="prog" selected>Programacion</option>
+                    <option value="bd" selected>Base de datos</option>
+                    <option value="sis" selected>Sistemas</option>
+                    <option value="len" selected>Lenguaje</option>
+                </select>
+            </fieldset>
+            <p>Opciones:
+                <br>
+                <input type="checkbox" name="opcion" value="Opcion1">Opcion1
+                <br>
+                <input type="checkbox" name="opcion" value="Opcion2">Opcion2
+                <br>
+                <input type="checkbox" name="opcion" value="Opcion3">Opcion3
+            </p>
+            <input type="submit" name="aceptar" value="Aceptar">
+        </form>
+    </body>
+</html>
