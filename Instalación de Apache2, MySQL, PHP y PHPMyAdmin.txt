@@ -1,0 +1,18 @@
+https://www.digitalocean.com/community/tutorials/como-instalar-el-servidor-web-apache-en-ubuntu-18-04-es
+sudo apt-get install apache2
+sudo ufw app list
+sudo ufw status
+sudo systemctl status apache2
+
+https://ubunlog.com/mysql-8-base-datos-ubuntu/
+sudo apt-get install mysql-server
+sudo systemctl status mysql
+sudo mysql -u root 
+GRANT ALL PRIVILEGES ON *.* TO 'fernando'@'localhost' identified by 'Chubaca2018' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'fernando'@'%' identified by 'Chubaca2018' WITH GRANT OPTION;
+
+sudo apt-get install phpmyadmin
+php -version
+
+http://localhost/phpmyadmin
+
